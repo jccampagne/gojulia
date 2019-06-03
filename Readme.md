@@ -41,12 +41,12 @@ There are 3 examples:
 # C binding:
 
 Julia is embedding in Go using cgo and a couple of C binding files: `gjl.h` and `gjl.c`.
-These files provide function wrappers around (Julia C API)[https://docs.julialang.org/en/v1/manual/embedding/index.html] that are defined C macros in Julia. Cgo cannot use C macros directly. For example [https://github.com/JuliaLang/julia/blob/d249e71ef2fd59acd557f2f6c9688253f4b5a47d/src/julia.h#L107](jl_typeof(v)) is a macro.
+These files provide function wrappers around [Julia C API](https://docs.julialang.org/en/v1/manual/embedding/index.html) that are defined C macros in Julia. Cgo cannot use C macros directly. For example [jl_typeof(v)](https://github.com/JuliaLang/julia/blob/d249e71ef2fd59acd557f2f6c9688253f4b5a47d/src/julia.h#L107) is a macro.
 
 # References
 
 
 * [cgo](https://golang.org/cmd/cgo/)
-* [https://docs.julialang.org/en/v1/manual/embedding/index.html](Embedding Julia)
-* [https://github.com/JuliaLang/julia/blob/master/src/julia.h](julia.h)
+* [Embedding Julia](https://docs.julialang.org/en/v1/manual/embedding/index.html)
+* [julia.h](https://github.com/JuliaLang/julia/blob/master/src/julia.h)
 
