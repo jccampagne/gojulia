@@ -38,7 +38,7 @@ There are 3 examples:
 1. `gjl_goroutines_fail.go`: same as above example, but demonstrate failure when accessing julia from multiple goroutine without synchronization.
 
 
-# C binding:
+# C binding
 
 Julia is embedding in Go using cgo and a couple of C binding files: `gjl.h` and `gjl.c`.
 These files provide function wrappers around [Julia C API](https://docs.julialang.org/en/v1/manual/embedding/index.html) that are defined C macros in Julia. Cgo cannot use C macros directly. For example [jl_typeof(v)](https://github.com/JuliaLang/julia/blob/d249e71ef2fd59acd557f2f6c9688253f4b5a47d/src/julia.h#L107) is a macro.
