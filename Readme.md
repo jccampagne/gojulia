@@ -12,7 +12,7 @@ Julia, Go, Make.
 You will probably have to add `julia-config.jl` to your PATH. Julia config tool on macOS, using Julia installed with [brew](https://brew.sh) is located here:
 
 ```
-/Applications/Julia-1.1.app/Contents/Resources/julia/share/julia/julia-config.jl
+/Applications/Julia-1.2.app/Contents/Resources/julia/share/julia/julia-config.jl
 ```
 
 
